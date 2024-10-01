@@ -1,0 +1,75 @@
+
+HTML (Hyper Text Markup Language) - 
+
+ 1. It has collections of predefined tags.
+ 2. It is used to create basic structure of basic web page. 
+ 3. The HTML tags are used for collecting input from user and also use to display output to user via web  browser.
+ 4. HTML tags has limited properties. Due to this limitation, CSS is required for styling purpose and JS is required for functionality of a web page.
+
+
+How HTML works ?
+
+1. Responsive page = HTML(tags) + CSS(Styling properties).
+
+2. Dynamic webpage = HTML(tags) + CSS(styling properties + JavaScript(functionality).
+
+Tags -
+
+1. <>  open tag
+2. </> close tag
+
+Types of tags -
+
+1. Input tags - 
+   It collects input from users via web browser.
+
+2. Output tags -
+   It displays output to user via web browser.
+
+Syntax of tags -
+
+1. Dependent tag/ paired tag -
+ These tags require both an opening and a closing tag.
+ Example : <html></html>, <body></body>, <h1></h1>
+
+2. Independent tag -
+ These tags require only an opening tag.
+ Example : <br>, <hr>, <img>
+ Note : The React JSX does not support independent tags.
+
+3. Self closing tag -
+ These tags open and close together. 
+ Example : <br/>,<hr/>,<img/>
+ Note : It works with all technologies.
+
+=> Behavior of HTML tags :
+   1. Block level tag : 
+   The block level tag prints the content in a new line by default.
+   Example : <p></p>, <div></div>.
+
+   2. Inline tag      :
+   The inline tags prints content in the same line (side by side) by default. An inline element only takes up as much width as necessary.
+   Example : <span></span>
+
+==========================================================================================================
+
+Summary :
+        HTML
+           => Tags :
+                => Input tag  : 
+                    It collects input from the user.
+                => Output tag :
+                    It displays the output to the user.
+                => Dependent tag :
+                   These tags require both an opening and a closing tag.
+                => Independent tag :
+                   These tags require only an opening tag.
+                => Self closing tag :
+                   These tags open and close together. 
+                => Block level tag :
+                   The block level tag prints the content in a new line by default.
+                => Inline tag :
+                   The inline tags prints content in the same line (side by side) by default.
+
+
+        Note : Using CSS, we can convert an inline tag to block level tag and vice versa.        
