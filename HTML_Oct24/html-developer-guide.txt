@@ -72,4 +72,51 @@ Summary :
                    The inline tags prints content in the same line (side by side) by default.
 
 
-        Note : Using CSS, we can convert an inline tag to block level tag and vice versa.        
+        Note : Using CSS, we can convert an inline tag to block level tag and vice versa. 
+
+==========================================================================================================
+
+Structure of an HTML Document :
+
+An HTML document starts from the <html> tag and ends with it. It consists of two main sections:
+
+1- Head
+
+   . Contains metadata, marketing, and analytics information.
+   . Includes libraries such as CSS, JavaScript, and external resources.
+
+2- Body
+
+   . The main content area where input and output are displayed.
+   . Use appropriate tags based on the content.
+
+
+Heading Tags (h1 to h6) : 
+
+1- These are used to create headlines on a webpage.
+2- The <h1> tag is required at least once and no more than once per page for better visibility and SEO.
+
+Types of Lists in HTML :
+
+1- Unordered List (UL)
+
+    List item markers can be styled as (type="possible values from list") :
+      . disc
+      . square
+      . circle
+      . none
+
+2- Ordered List (OL)
+
+    List item markers can be styled as (type="possible values from list") :
+      . 1 (numbers)
+      . A (uppercase letters)
+      . a (lowercase letters)
+      . I (uppercase Roman numerals)
+      . i (lowercase Roman numerals)
+
+3- Definition List (DL)
+
+   . <dt>: Definition Title (displays the headline of the content).
+   . <dd>: Definition Details (provides detailed information about the content).
+   
